@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/bas_menu" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/search"
+            android:title="@string/izlew" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/favourites"
+            android:title="@string/saylandılar" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings"
+            android:title="@string/sazlamalar" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/aboutus"
+            android:title="@string/biz_haqq_m_zda" />
+    </group>
+</menu>
